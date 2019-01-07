@@ -1,0 +1,201 @@
+html,
+body,
+form,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+ul,
+ol,
+li,
+dt,
+dd,
+select {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+body,
+select,
+input,
+option {
+	color: #4e5656;
+	font: 16px/100% "Microsoft YaHei", Arial;
+	-webkit-text-size-adjust: none;
+}
+
+ul,
+ol,
+li {
+	list-style-type: none;
+}
+
+em, i {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+.t-question-box {
+	background-color: #fff;
+	width: 980px;
+	margin: 20px auto;
+	border-radius: 4px;
+	height: 100%;
+}
+
+.report {
+	font-size: 48px;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+}
+
+.collect {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.collect-tit {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.collect-tit span {
+	text-align: center;
+	font-size: 25px;
+	background: #bcd680;
+	display: inline-block;
+	width: 200px;
+	border-radius: 5px;
+	height: 30px;
+	padding-top: 15px;
+}
+
+.collect-tit p {
+	display: inline-block;
+	height: 2px;
+	background: #b2b2b1;
+	margin-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.header-middle {
+	margin-top: 15px;
+}
+
+.doctor-name {
+	width: 100%;
+	float: right;
+	line-height: 50px;
+	margin-top: 20px;
+}
+
+.doctor-name span {
+	float: right;
+}
+
+.tab {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-style: normal;
+	color: inherit;
+	margin-top: 50px;
+}
+
+.tab td {
+	padding: 10px 3px;
+	font-weight: 600;
+	text-align: left;
+}
+
+.t-question-resove {
+	/*background: white;*/
+}
+
+.t-question-resove h2 {
+	font-size: 18px;
+	font-weight: normal;
+	padding: 15px;
+	background-color: #f5f5f5;
+}
+
+.t-question-resove ul {
+	overflow: hidden;
+	padding: 10px 30px;
+}
+
+.t-question-resove ul li {
+	width: 30%;
+	padding: 5px 0;
+	float: left;
+	font-size: 14px;
+}
+
+.t-question-resove textarea {
+	width: 700px;
+	height: 100px;
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+
+/*体检结果*/
+.tab-single {
+	width: 100%;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-style: normal;
+	margin-top: 20px;
+	border: 1px solid #222;
+
+}
+
+.tab-single td:first-child {
+	width: 40%;
+}
+
+.tab-single td {
+	border: none;
+	word-break: keep-all;
+	word-wrap: break-word;
+	line-height: 30px;
+	padding-left: 8px;
+}
+
+.tab-single tr:nth-child(odd){
+	background-color: lightblue;
+}
+
+.tab-single tr:nth-child(even){
+	background-color: cadetblue;
+}
+
+.tab-single td strong {
+	font-size: 18px;
+	margin-left: 25px;
+}
+
+.tab-single tr {
+	height: 36px;
+}
